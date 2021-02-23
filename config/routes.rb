@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  # See all my restaurants
+  get 'restaurants', to: 'restaurants#index'
+  # See one of my restaurants
+  # Create a restaurant
+  # Update a restaurant
+  # Destroy a restaurant
 end
